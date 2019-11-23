@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: #2286c3;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, a, li {
+  font-family: 'Alata', sans-serif;
+}
+
+code {
+  font-family: monospace;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  width: 80%;
+}
+
+.hero {
+  height: 50vh;
+  background-color: #64b5f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title {
+  font-size: 5rem;
+  margin: auto;
+}
+
+.tip-section {
+  padding: 20px 10px;
+}
+
+.tip-section__title {
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.tip-section__description {
+  padding: 15px 5px;
+}
+
+.tip-section__subtitle {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.tip-section__image {
+  padding: 15px 0;
+  width: 100%;
+}
+
+.tip-section__image img,
+.card-section img {
+  max-width: 700px;
+}
+
+.card-section {
+  padding-bottom:250px ;
+  font-size: 20px;
+}
+
+.card-section__image {
+  padding-bottom: 50px ;
+}
+
+.card-section__list {
+  list-style: square inside;
+  padding: 20px;
+}
+
+.card-section__list li {
+  padding: 10px 5px;
+}
